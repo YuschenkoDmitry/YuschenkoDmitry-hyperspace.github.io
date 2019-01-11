@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,KAAK;EACD,MAAM,EAAE,aAAa;EACrB,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,IAAI;EACT,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,OAAO;;AAClB,OAAO;ECXH,UAAU,EAAE,GAAG",
+"sources": ["../sass/main.sass","../sass/_mixin.sass"],
+"names": [],
+"file": "main.css"
+}

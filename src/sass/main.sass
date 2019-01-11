@@ -1,0 +1,182 @@
+@import "_var"
+@import "_mixin"
+@import "_header"
+@import "_media"
+body
+    max-width: 100%
+.menu
+    @include color    
+main
+    margin-left: 21%
+    margin-top: -3%
+    width: 100%
+nav
+    position: fixed
+    width: 21%
+    top: 1px
+    height: 100%
+    @include color
+.menu_1
+    list-style: none
+    position: fixed
+    top: 40%
+    left: 3%
+li
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 16px
+    letter-spacing: 4px
+    text-decoration: none
+    text-align: right
+    color: $color
+    text-shadow: 1px 2px 2px white, 0 0 1em #B0C4DE
+a:hover
+    color: #BC8F8F
+.content
+    @include content_right
+    background-image: url(../img/bg.jpg)
+    background-size: 100%
+    background-size: cover 
+    height: 100%
+    padding-left: 5%   
+.content h1
+    color: $color    
+    font-size: 2.75em
+    font-weight: bold
+    line-height: 1.5
+    font-family: Arial, Helvetica, sans-serif
+    padding-top: 20%   
+h1    
+    font-family: $font
+    color: white
+    font-size: 50px
+h3    
+    font-size: 25px
+    color: #A4A4A4    
+    @include font
+    text-shadow: 1px 1px 2px white, 0 0 1em #B0C4DE
+hr
+    background-image: linear-gradient(to right, #DF01A5, #FFFF00)
+    width: 100%
+    height: 1px
+hr:hover
+    background-image: linear-gradient(to right, #483D8B, #BA55D3)
+.silka
+    color: #A4A4A4
+    text-decoration: none
+    font-family: $font
+.silka:hover
+    color: white
+.learn    
+    @include button
+.learn_1
+    @include button
+.learn_2
+    @include button
+    margin: 1% 6% 0px 3%
+    width: 28%
+.learn_2:hover
+    opacity: 0.7
+    background: #483D8B
+.learn:hover
+    opacity: 0.7
+    background: #0000CD
+.learn_1:hover
+    opacity: 0.7
+    background: #0000CD
+.Who_we_are
+    @include content_right     
+.content_2
+    font-family: Arial, Helvetica, sans-serif
+    background: #5052b5    
+    padding: 5%
+    width: 100%
+.content_3
+    font-size: 15px
+    font-family: Arial, Helvetica, sans-serif
+    color: $color
+.content_4
+    font-size: 33px
+    color: $color
+    margin-left: 48px
+.foto
+    display: flex 
+    border: none
+.foto img
+    background-position: center center
+    background-size: cover  
+    border: none
+    width: 25em
+    display: inline-block    
+.content_5
+    font-family: Arial, Helvetica, sans-serif
+    background: #5046b8
+    padding: 5%  
+    width: 100%  
+.content_6
+    font-family: Arial, Helvetica, sans-serif
+    background: #5269b9
+    padding: 5%  
+    width: 100%  
+.What_we_do
+    @include content_right 
+    background: #b74e91
+    text-align: center
+.table
+    display: inline-block
+.table_1
+    border: 2px solid white
+    border-radius: 5px
+    display: inline-block
+    color: white
+    width: 41%
+    margin: 0px 0px -2px -6px
+    padding: 2%
+    font-size: 25px
+p
+    color: $color
+    font-size: 20px
+    margin-left: 48px
+a
+    color: $color
+    text-decoration: none
+.Get_in_touch
+    @include content_right     
+    background: #5e42a6
+.footer
+    @include content_right
+    border-left: solid 1px rgba(255, 255, 255, 0.15)
+    line-height: 1
+    height: 15%
+    padding: 2%
+    text-align: center
+    background: #493382
+.name
+    border-right: 2px solid white
+    margin: 6% 
+    display: flex
+    flex-wrap: wrap
+    align-self: baseline
+    width: 55%
+#uname
+    background: rgba(255, 255, 255, 0.05)
+    border-radius: 0.25em
+    border: solid 1px rgba(255, 255, 255, 0.15)
+    color: inherit
+    outline: 0
+    padding: 15px 3em
+    text-decoration: none
+span
+    color: $color
+.Message
+    color: $color
+.adres
+    display: block    
+    width: 25%
+    height: 7%
+h2
+    color: rgba(255, 255, 255, 0.55)
+    font-size: 20px
+
+        
+   
+
